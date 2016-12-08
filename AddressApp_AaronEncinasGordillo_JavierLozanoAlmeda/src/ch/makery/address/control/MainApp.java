@@ -46,7 +46,7 @@ public class MainApp extends Application {
 
 	private Stage primaryStage = new Stage();
 	private BorderPane rootLayout;
-	public static final String APPLICATION_ICON =
+	public static final String APPLICATION_ICON = 
             "http://cdn1.iconfinder.com/data/icons/Copenhagen/PNG/32/people.png";
     public static final String SPLASH_IMAGE = "file:resources/images/SplashImage.png";
 
@@ -79,7 +79,7 @@ public class MainApp extends Application {
                     "linear-gradient(" +
                         "to bottom, " +
                         "#CDDC39, " +
-                        "derive(#CDDC39, 50%)" +
+                        "derive(#CDDC39, 55%)" +
                     ");"
         );
         splashLayout.setEffect(new DropShadow());
